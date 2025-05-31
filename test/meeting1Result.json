@@ -1,0 +1,35 @@
+{
+    "summary": "The team discussed the upcoming product launch, user feedback, and logistics coordination. Key topics included documentation preparation, addressing user feedback regarding the dashboard design, and resource allocation for mobile UI updates and backend optimization.",
+    "decisions": [
+        "New product launch confirmed for June 10, 2025",
+        "UX team will redesign the main dashboard interface",
+        "Social media campaigns will start June 1"
+    ],
+    "actionItems": [
+        {
+            "task": "Prepare onboarding docs",
+            "owner": "Ravi",
+            "due": "June 5"
+        },
+        {
+            "task": "Follow up on packaging logistics",
+            "owner": "Priya",
+            "due": "This week"
+        },
+        {
+            "task": "Coordinate mobile UI redesign",
+            "owner": "Sarah",
+            "due": "June 24"
+        },
+        {
+            "task": "Optimize backend for mobile",
+            "owner": "Mike",
+            "due": "June 24"
+        },
+        {
+            "task": "Launch social media campaign",
+            "owner": "Alex",
+            "due": "June 1"
+        }
+    ]
+}
