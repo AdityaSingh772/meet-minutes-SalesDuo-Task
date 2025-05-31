@@ -1,0 +1,51 @@
+Weekly Engineering Standup
+Date: June 1, 2025
+Duration: 45 minutes
+
+Team Members Present:
+- Jennifer (Team Lead)
+- David (Senior Developer)
+- Lisa (Frontend Developer)
+- Carlos (DevOps Engineer)
+- Emma (QA Engineer)
+
+Sprint Review & Planning:
+
+Sprint Goals Achieved:
+- Successfully deployed authentication microservice to production
+- Completed user dashboard redesign with 95% test coverage
+- Fixed critical security vulnerabilities in payment processing
+
+Current Blockers:
+- Database migration scripts are failing in staging environment
+- Third-party API rate limits affecting user import feature
+- iOS app store review is taking longer than expected
+
+Decisions Made:
+- Agreed to move from PostgreSQL to MongoDB for user profiles service
+- Decided to implement Redis caching for frequently accessed data
+- Approved budget increase for additional cloud infrastructure
+
+Sprint Actions:
+- David to investigate database migration issues by Friday
+- Lisa will implement Redis caching layer next sprint
+- Carlos to set up monitoring dashboards for new services
+- Emma should complete performance testing by June 3
+- Jennifer will schedule architecture review meeting
+
+Technical Discussions:
+- Microservices communication: decided to use message queues instead of direct HTTP calls
+- Code review process: implementing automated security scanning before merge
+- Performance targets: aiming for sub-200ms API response times
+
+Risks & Concerns:
+- Current server capacity may not handle projected user growth
+- Team bandwidth is stretched with current sprint commitments
+- Security audit scheduled for June 15 requires additional preparation
+
+Upcoming Milestones:
+- Beta release targeted for June 20
+- Security audit: June 15
+- Public launch: July 1
+
+Next standup: June 5, 2025 at 9:00 AM
