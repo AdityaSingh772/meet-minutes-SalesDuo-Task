@@ -3,6 +3,9 @@ const cors = require('cors');
 const helmet = require('helmet');
 require('dotenv').config();
 
+// Import routes
+const meetingRoutes = require('./routes/meetings');
+const { globalErrorHandler, notFoundHandler } = require('./middleware/errorHandler');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -23,10 +26,14 @@ app.get('/health', (req, res) => {
   });
 });
 
+// Routes
+app.use('/', meetingRoutes);
 
 // 404 handler
 app.use('*', notFoundHandler);
 
+// Global error handling
+app.use(globalErrorHandler);
 
 // Start server
 app.listen(PORT, () => {
